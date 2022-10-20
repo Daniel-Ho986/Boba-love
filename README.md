@@ -35,11 +35,15 @@ Before starting, make sure you get the updated main branch from the repository.
 
 To begin each task, simply drag them out of the To do column and into the In Progress column. Then create new branch from the main to work on that task specifically, so you can start off with a copy of main branch.
 
+
 To create a new branch from your current branch and switch to it: 
 `git checkout -b <new branch name>` 
 
 To switch to an existing branch: 
 `git checkout <existing branch name>`
+
+Show all branch:
+`git branch -a `
 
 To delete an existing branch:
 `git branch -d <branch name>`
