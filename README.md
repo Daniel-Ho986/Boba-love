@@ -56,7 +56,7 @@ You can link as many commits to that task as you want.
 
 To push the changes from your local branch to the repository follow this command.
 
-`git push orign <branch name>`
+`git push origin <branch name>`
 
 This creates the branch remotely and pushes that branch on GitHub
 
