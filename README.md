@@ -31,7 +31,7 @@ you can create issues in your repository and it will automatically link to the G
 
 Before starting, make sure you get the updated main branch from the repository.
 
-`git pull`
+`git pull origin <branch name>`
 
 To begin each task, simply drag them out of the To do column and into the In Progress column. Then create new branch from the main to work on that task specifically, so you can start off with a copy of main branch.
 
