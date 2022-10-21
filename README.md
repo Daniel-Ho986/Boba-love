@@ -62,34 +62,10 @@ This creates the branch remotely and pushes that branch on GitHub
 
 [Link GitHub Commit to Issue](https://gitdailies.com/articles/link-github-commit-to-issue/)
 
-### Completing the Task (Linking Pull Request to an Issue)
-
-After committing the changes in your local branch and completing the task, simply merge your branch to the main branch via pull request. 
-
-To close of the issue automatically using pull request, just type any of the following keywords:
-
-- close
-- closes
-- closed
-- fix
-- fixes
-- fixed
-- resolve
-- resolves
-- resolved
-
-along with the '#' and the issue number in the pull request body description.
-
-*Fixed #4 using React hooks*
-
-This process will automatically drag the task from In Progress in GitHub Project to the Done column, and close the issue in the GitHub Repository.
-
-[Linking A Pull Request to an Issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
-
 ### Approval
+
+Close the issue and it will automatically drag to Done column. Then create a pull request.
 
 After completing your pull request and your branch is ready to be merge with the main branch, you will need the approval of your team members for your merge process to proceed.
 
 [Learn How to Start New Group Project GitHub](https://www.digitalcrafts.com/blog/learn-how-start-new-group-project-github)
-
-Testing
