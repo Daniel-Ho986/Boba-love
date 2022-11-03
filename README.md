@@ -71,3 +71,5 @@ After completing your pull request and your branch is ready to be merge with the
 [Learn How to Start New Group Project GitHub](https://www.digitalcrafts.com/blog/learn-how-start-new-group-project-github)
 
 Testing Readme
+
+Simon adding a test 
