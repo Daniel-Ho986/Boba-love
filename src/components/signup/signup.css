@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.page {
+    background-color: #FFF1E6;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+#logo {
+    width: 350px;
+    height: 80px;
+}
+
+.signup-card {
+    background-color: #FFE8D6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    width: 500px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+.left-arrow {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    padding: 5px;
+    position: relative;
+    top: 5px;
+}
+
+.header {
+    font-size: 36px;
+    font-weight: bolder;
+    line-height: 48px;
+    margin: 2px;
+    padding: 5px;
+    position: relative;
+    left: 18px;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr .25fr 1fr;
+    grid-template-columns: 175px 175px;
+    gap: 8px;
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+#firstname {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 2;
+}
+
+#lastname {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 2;
+    grid-column-end: 3;
+}
+
+#email {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 3;
+}
+
+#password {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-row-end: 4;
+    grid-column-end: 3;
+}
+
+#submit {
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-row-end: 5;
+    grid-column-end: 3;
+}
+
+#existing-user {
+    grid-row-start: 5;
+    grid-column-start: 1;
+    grid-row-end: 6;
+    grid-column-end: 3;
+
+    margin: auto;
+}
+
+/* Temporary until Authentication */
+#google {
+    grid-row-start: 6;
+    grid-column-start: 1;
+    grid-row-end: 7;
+    grid-column-end: 3;
+
+    background-color: #FFF1E6;
+    color: #4299E1;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2px;
+    gap: 8px;
+}
+
+label {
+    padding-left: 3px;
+}
+
+.astrix {
+    color: #F0648C;
+    padding: 5px;
+}
+
+.textfield {
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.21);
+    border-radius: 10px;
+    width: 100%;
+    height: 35px;
+    padding-left: 5px;
+}
+
+.button {
+    background-color: #774936;
+    color: #ffffff;
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+    line-height: 20px;
+    width: 100%;
+    height: 40px;
+}
+
+.login {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/* Temporary until Authentication */
+#google-logo {
+    height: 20px;
+    width: 35px;
+    padding: 0px 8px;
+}
