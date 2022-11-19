@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import './login.css'
-import logo from '../../images/boba-love-logo.png'
 import leftArrow from '../../icons/arrow-left.png'
+import logo from '../../images/boba-love-logo.png'
 
 export default function Login() {
   return (
@@ -32,6 +32,7 @@ export default function Login() {
                                 <span className='astrix'>*</span>
                             </label>
                             <input type='password' className='textfield' required />
+                            <Link className='forgot-password' to='/'>Forgot Password?</Link>
                         </section>
                         <button className='button' id='login-submit' type='submit'>Log In</button>
                         <div id='new-user'>
