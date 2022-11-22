@@ -1,0 +1,28 @@
+.About-page{
+    background-color: #FFF1E6;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+.bobba-love{
+    text-align: left;
+    background-color: #FFE8D6;
+    margin: auto;
+    width: 90%;
+    padding: 40px;
+}
+
+
+
+.Motto{
+    margin: left;
+    width: 80%;
+    padding: 40px
+
+}
+.team-member{
+    background-color: #F5F5F5;
+}
