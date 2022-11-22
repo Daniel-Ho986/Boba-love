@@ -1,0 +1,22 @@
+.team_section {
+    background-color: #F5F5F5; 
+    min-height: 200px;
+
+}
+h3 {
+    text-align: left;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+.card {
+    margin: 30px; 
+    display: flex;
+    align-items: center;
+    float: left;
+  }
