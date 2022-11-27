@@ -7,16 +7,16 @@ import Member from './Team/ourTeam'
 export default function AboutUs() {
   return (
     <div className='About-page'>
-      <div>bobba love</div>
       <div>
       <ButtonEXP />
       </div>
+
+      <div>
         <h1>About US</h1>
+        </div>
         <div className='bobba-love'>
-        <p>
           The Geniuses behind bobba love are bobba tea fanatics who strives
           for easy access to their own bobba tea
-          </p>
           </div>
       
 
