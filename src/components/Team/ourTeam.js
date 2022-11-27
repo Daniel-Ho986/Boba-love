@@ -2,56 +2,58 @@ import React from 'react'
 import './ourteam.css'
 
 
+
+
 export default function Member(){
+   const data=[
+      {
+         Imag: "https://via.placeholder.com/400x200",
+         Name:"Daniel",
+         Fav:"Bobba Love",
+         LinK:"LinkedIn"
+      },
+      {
+         Imag: "https://via.placeholder.com/400x200",
+         Name:"Jacklyn",
+         Fav:"Bobba Love",
+         LinK:"LinkedIn"
+      },
+      {
+         Imag: "https://via.placeholder.com/400x200",
+         Name:"Maxwell",
+         Fav:"Bobba Love",
+         LinK:"LinkedIn"
+      },
+      {
+         Imag: "https://via.placeholder.com/400x200",
+         Name:"Simon",
+         Fav:"Bobba Love",
+         LinK:"LinkedIn"
+      },
+      {
+         Imag: "https://via.placeholder.com/400x200",
+         Name:"Reni",
+         Fav:"Bobba Love",
+         LinK:"LinkedIn"
+      },
+      ];
     return(
         <div className='team_section'>
-            <h3>Our Team</h3>
-                <div class="card">
-                   <img src="https://via.placeholder.com/400x200" alt='profile' /> 
-                   <div>
-                     <div class="name">Daniel</div>
-                      <div class="Linkedin">Linkedin</div>
-                      <div class="Fav">bobba tea</div>
-                         </div>
-                </div> 
-
-                <div class="card">
-                   <img src="https://via.placeholder.com/400x200" alt='profile' /> 
-                   <div>
-                     <div class="name">Simon</div>
-                      <div class="Linkedin">Linkedin</div>
-                      <div class="Fav">bobba tea</div>
-                         </div>
-                </div> 
-
-                <div class="card">
-                   <img src="https://via.placeholder.com/400x200" alt='profile' /> 
-                   <div>
-                     <div class="name">Maxwell</div>
-                      <div class="Linkedin">Linkedin</div>
-                      <div class="Fav">bobba tea</div>
-                         </div>
-                </div> 
-
-                <div class="card">
-                   <img src="https://via.placeholder.com/400x200" alt='profile' /> 
-                   <div>
-                     <div class="name">Jacklyn</div>
-                      <div class="Linkedin">Linkedin</div>
-                      <div class="Fav">bobba tea</div>
-                         </div>
-                </div> 
-
-                <div class="card">
-                   <img src="https://via.placeholder.com/400x200" alt='profile' /> 
-                   <div>
-                     <div class="name">Reni</div>
-                      <div class="Linkedin">Linkedin</div>
-                      <div class="Fav">bobba tea</div>
-                         </div>
-                </div> 
-                                 
-             
+            <h3>Our Team</h3> 
+            
+            {data.map((data) => (
+               <div className='team-member'>
+                  <div className='image-holder'>
+                     <img src="https://via.placeholder.com/400x200" alt='profile' />
+                     </div>
+                  <div className='listOfMember'>
+                     <div>{data.Name}</div>
+                     <div>{data.Fav}</div>
+                     <div>{data.LinK}</div>
+                  </div>
+                  </div>             
+               ))}
+                          
             </div>        
             
     )
