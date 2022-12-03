@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import './signup.css'
-import logo from '../../images/boba-love-logo.png'
+import logo from '../../icons/boba-love-logo.png'
 import leftArrow from '../../icons/arrow-left.png'
 import google from '../../icons/google-logo.png'
 
@@ -10,7 +10,7 @@ export default function SignUp() {
   return (
     <div className='page'>
         <div className='container'>
-            <img id='logo' src={logo} alt='Logo'/>
+            <img id='signup-logo' src={logo} alt='Logo'/>
         </div>
         <div className='container'>
             <div className='signup-card'>
@@ -48,7 +48,7 @@ export default function SignUp() {
                             </label>
                             <input type='password' className='textfield' required />
                         </section>
-                        <button className='button' id='submit' type='submit'>Sign Up</button>
+                        <button className='signup-button' id='submit' type='submit'>Sign Up</button>
                         <div id='existing-user'>
                             Already a user? <Link className='login' to='/login'>Login</Link>
                         </div>
