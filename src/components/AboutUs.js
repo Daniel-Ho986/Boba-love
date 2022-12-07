@@ -1,9 +1,11 @@
 import React from 'react'
-import { Carousel } from 'react-bootstrap'
-
-import './aboutUs.css'
+import { Carousel, Container } from 'react-bootstrap'
 import Navbar from './navigationBar/NavigationBar'
 
+import './aboutUs.css'
+import drink from '../images/slideshow-drinks.jpg'
+import phone from '../images/slideshow-phone.jpg'
+import friends from '../images/slideshow-friends.jpg'
 
 
 export default function AboutUs() {
@@ -13,54 +15,44 @@ export default function AboutUs() {
       <Carousel>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
-          alt="First slide"
+          className='d-block w-100'
+          src={drink}
+          alt='First slide'
         />
-        <Carousel.Caption>
+        <Carousel.Caption className='caption'>
           <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
-          alt="Second slide"
+          className='d-block w-100'
+          src={phone}
+          alt='Second slide'
         />
 
-        <Carousel.Caption>
+        <Carousel.Caption className='caption'>
           <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Mauris rhoncus aenean vel elit. Accumsan sit amet nulla facilisi morbi tempus iaculis urna id.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
-          alt="Third slide"
+          className='d-block w-100'
+          src={friends}
+          alt='Third slide'
         />
 
-        <Carousel.Caption>
+        <Carousel.Caption className='caption'>
           <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <p>Viverra suspendisse potenti nullam ac tortor vitae purus faucibus. Leo a diam sollicitudin tempor id eu nisl nunc.</p>
         </Carousel.Caption>
       </Carousel.Item>
       </Carousel>
+
     </div>
     
     
-
-
-    //     <h1>About US</h1>
-    //     <div className='bobba-love'>
-    //     <p>
-    //       The Geniuses behind bobba love are bobba tea fanatics who strives
-    //       for easy access to their own bobba tea
-    //       </p>
-    //       </div>
       
 
     //   <div className='team-member'>
