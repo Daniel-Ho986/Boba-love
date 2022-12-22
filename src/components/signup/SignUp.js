@@ -33,7 +33,7 @@ export default function SignUp() {
     return (
         <div className='page'>
             <div className='container'>
-                <img id='logo' src={logo} alt='Logo'/>
+                <img id='signup-logo' src={logo} alt='Logo'/>
             </div>
             <div className='container'>
                 <div className='signup-card'>
@@ -87,7 +87,7 @@ export default function SignUp() {
                                     onChange={(e) => setPassword(e.target.value)}
                                     required />
                             </section>
-                            <button className='button' id='submit' type='submit'>Sign Up</button>
+                            <button className='signup-button' id='submit' type='submit'>Sign Up</button>
                             <div id='existing-user'>
                                 Already a user? <Link className='login' to='/login'>Login</Link>
                             </div>

@@ -29,7 +29,7 @@ export default function Login() {
     return (
         <div className='page'>
             <div className='container'>
-                <img id='logo' src={logo} alt='Logo'/>
+                <img id='login-logo' src={logo} alt='Logo'/>
             </div>
             <div className='container'>
                 <div className='login-card'>
@@ -62,7 +62,7 @@ export default function Login() {
                                     required />
                                 <Link className='forgot-password' to='/'>Forgot Password?</Link>
                             </section>
-                            <button className='button' id='login-submit' type='submit'>Log In</button>
+                            <button className='login-button' id='login-submit' type='submit'>Log In</button>
                             <div id='new-user'>
                                 New user? <Link className='signup' to='/signup'>Sign Up</Link>
                             </div>

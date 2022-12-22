@@ -7,7 +7,7 @@ import logo from '../../icons/boba-love-logo.png'
 
 export default function NavigationBar() {
   return (
-    <Navbar variant='dark' style={{ background: '#FEE2CC'}} sticky='top'>
+    <Navbar style={{ background: '#FEE2CC'}} sticky='top'>
         <Navbar.Brand href='/' className='ps-2'>
             <img id='nav-logo' className='ps-3' src={logo} alt='Logo'/>
         </Navbar.Brand>
