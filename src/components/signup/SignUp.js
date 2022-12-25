@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { UserAuth } from '../context/AuthContext'
 
 import './signup.css'
-import logo from '../../images/boba-love-logo.png'
+import logo from '../../images/Logo.png'
 import leftArrow from '../../icons/arrow-left.png'
 import google from '../../icons/google-logo.png'
 

@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 .signup-page {
-    /* background-color: #FFF1E6; */
+    background-color: #FFF1E6;
     background-image: url(/src/assets/BobaBackground.gif);
     /* background-repeat: no-repeat; */
-    background-size: contain;
+    /* background-size: contain;  */
     background-position: center;
     min-height: 100vh;
 }
@@ -24,7 +24,7 @@
 }
 
 .signup-card {
-    /* background-color: #FFE8D6; */
+    background-color: #FFE8D6;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     width: 500px;
