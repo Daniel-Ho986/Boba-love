@@ -31,7 +31,7 @@ export default function SignUp() {
     }
 
     return (
-        <div className='page'>
+        <div className='signup-page'>
             <div className='container'>
                 <img id='logo' src={logo} alt='Logo'/>
             </div>

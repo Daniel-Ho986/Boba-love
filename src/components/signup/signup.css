@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-.page {
-    background-color: #FFF1E6;
+.signup-page {
+    /* background-color: #FFF1E6; */
+    background-image: url(/src/assets/BobaBackground.gif);
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    background-position: center;
     min-height: 100vh;
 }
 
@@ -15,15 +19,28 @@
 #logo {
     width: 350px;
     height: 80px;
+
+    animation: fadeIn 5s;
 }
 
 .signup-card {
-    background-color: #FFE8D6;
+    /* background-color: #FFE8D6; */
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     width: 500px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
+
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .left-arrow {
