@@ -1,26 +1,26 @@
-import React from 'react'
-import { Card } from 'react-bootstrap'
+import React, { Component }from 'react'
 
-export default class Member extends React.Component {
+import './member.css'
+
+class Member extends Component {
+    constructor(props) {
+        super(props)
+    }
+
     render() {
         return (
-        <>
-            <Card style={{maxWidth: '440px'}}>
-                <div className="row no-gutters">
-                <div className="col-md-4">
-                  {/* <img src="..." className="card-img" alt="..."> */}
+            <div className="member-card">
+                <div className="member-card-items">
+                    <img src={this.props.image} className="member-img" alt={this.props.image}/>
                 </div>
-                <div className="col-md-8">
-                  <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    {/* <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p> */}
-                  </div>
+                <div className="member-card-items">
+                    <h4>{this.props.name}</h4>
+                    <p>{this.props.role}</p>
+                    <p>{this.props.drink}</p>
                 </div>
-              </div>
-            </Card>
-        </>
-  ) 
+            </div>
+        ) 
     }
-  
 }
+
+export default Member;

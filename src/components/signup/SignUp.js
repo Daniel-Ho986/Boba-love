@@ -26,7 +26,6 @@ export default function SignUp() {
             navigate('/')
         } catch (e) {
             setError(e.message)
-            console.log(e.message)
         }
     }
 

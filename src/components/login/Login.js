@@ -22,7 +22,6 @@ export default function Login() {
             navigate('/')
         } catch (e) {
             setError(e.message)
-            console.log(e.message)
         }
     } 
 
