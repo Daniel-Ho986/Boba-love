@@ -4,7 +4,7 @@
     background-color: #FFF1E6;
     background-image: url(/src/assets/BobaBackground.gif);
     /* background-repeat: no-repeat; */
-    /* background-size: contain;  */
+    background-size: contain; 
     background-position: center;
     min-height: 100vh;
 }
