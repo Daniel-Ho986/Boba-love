@@ -13,7 +13,7 @@ class Member extends Component {
                 <div className="member-card-items">
                     <h4>{this.props.name}</h4>
                     <h5>{this.props.role}</h5>
-                    <p>{this.props.drink}</p>
+                    <p><img src={this.props.drinkIcon} className="drinkIcon" alt={this.props.drinkIcon}/>{this.props.drink}</p>
                 </div>
             </div>
         ) 

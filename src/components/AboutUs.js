@@ -15,6 +15,9 @@ import Maxwell from '../../src/assets/members/Maxwell.png'
 import Jacklyn from '../../src/assets/members/Jacklyn.png'
 import HaoRen from '../../src/assets/members/HaoRen.png'
 
+// Drink Icons
+import PassionFruit from '../../src/assets/Daniel\'s_Drink.png'
+
 export default function AboutUs() {
     return (
         <div>
@@ -67,6 +70,7 @@ export default function AboutUs() {
                             name="Daniel Ho" 
                             image={Daniel}
                             role="Full-Stack Web Developer" 
+                            drinkIcon={PassionFruit}
                             drink="Passion Fruit Green Tea"
                         />
                     </div>
@@ -74,7 +78,8 @@ export default function AboutUs() {
                         <Member
                             name="Simon Hsia" 
                             image={Simon}
-                            role="Back-end Developer" 
+                            role="Back-end Developer"
+                            drinkIcon={PassionFruit}
                             drink="Classic Milk Tea"
                         />
                     </div>
@@ -82,7 +87,8 @@ export default function AboutUs() {
                         <Member
                             name="Maxwell Sylvestre" 
                             image={Maxwell}
-                            role="Front-end Developer" 
+                            role="Front-end Developer"
+                            drinkIcon={PassionFruit}
                             drink="Refreshing Ice Cold Water"
                         />
                     </div>
@@ -90,7 +96,8 @@ export default function AboutUs() {
                         <Member
                             name="Jacklyn Yoon" 
                             image={Jacklyn}
-                            role="UI/UX Designer" 
+                            role="UI/UX Designer"
+                            drinkIcon={PassionFruit}
                             drink="Brown Sugar Milk Tea"
                         />
                     </div>
@@ -98,7 +105,8 @@ export default function AboutUs() {
                         <Member
                             name="Hao Ren Yuan" 
                             image={HaoRen}
-                            role="Graphics Designer & Back-end Developer" 
+                            role="Graphics Designer & Back-end Developer"
+                            drinkIcon={PassionFruit}
                             drink="Classic Milk Tea"
                         />
                     </div>

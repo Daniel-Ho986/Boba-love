@@ -27,12 +27,19 @@
     align-self: center;
     order: 0;
     padding: 1rem;
-    /* border: 1px solid #000 */
 }
 
 .member-img {
     width: 100%;
     padding: .5rem;
+}
+
+.drinkIcon {
+    width: 15px;
+    height: 23px;
+    padding: 2px;
+    position: relative;
+    bottom: 3px;
 }
 
 @media screen and (max-width: 1080px) {
