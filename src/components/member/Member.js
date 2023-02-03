@@ -3,9 +3,6 @@ import React, { Component }from 'react'
 import './member.css'
 
 class Member extends Component {
-    constructor(props) {
-        super(props)
-    }
 
     render() {
         return (
@@ -15,7 +12,7 @@ class Member extends Component {
                 </div>
                 <div className="member-card-items">
                     <h4>{this.props.name}</h4>
-                    <p>{this.props.role}</p>
+                    <h5>{this.props.role}</h5>
                     <p>{this.props.drink}</p>
                 </div>
             </div>

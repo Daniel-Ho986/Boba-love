@@ -60,46 +60,46 @@ export default function AboutUs() {
                 </Carousel>
             </div>
             <div className='team-container'>
-                <h1>Meet Our Team: Sussy Bakas</h1>
+                <h2>Meet Our Team: Sussy Bakas</h2>
                 <div className="team-grid">
                     <div className="team-card" id="member1">
                         <Member 
                             name="Daniel Ho" 
                             image={Daniel}
-                            role="Full Stack" 
-                            drink="Brown Sugar"
+                            role="Full-Stack Web Developer" 
+                            drink="Passion Fruit Green Tea"
                         />
                     </div>
                     <div className="team-card" id="member2">
                         <Member
                             name="Simon Hsia" 
                             image={Simon}
-                            role="Backend" 
-                            drink="Brown Sugar"
+                            role="Back-end Developer" 
+                            drink="Classic Milk Tea"
                         />
                     </div>
                     <div className="team-card" id="member3">
                         <Member
                             name="Maxwell Sylvestre" 
                             image={Maxwell}
-                            role="Frontend" 
-                            drink="Brown Sugar"
+                            role="Front-end Developer" 
+                            drink="Refreshing Ice Cold Water"
                         />
                     </div>
                     <div className="team-card" id="member4">
                         <Member
                             name="Jacklyn Yoon" 
                             image={Jacklyn}
-                            role="UI/UX" 
-                            drink="Brown Sugar"
+                            role="UI/UX Designer" 
+                            drink="Brown Sugar Milk Tea"
                         />
                     </div>
                     <div className="team-card" id="member5">
                         <Member
                             name="Hao Ren Yuan" 
                             image={HaoRen}
-                            role="Graphics & Backend" 
-                            drink="Water"
+                            role="Graphics Designer & Back-end Developer" 
+                            drink="Classic Milk Tea"
                         />
                     </div>
                 </div>

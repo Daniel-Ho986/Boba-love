@@ -70,10 +70,10 @@
     grid-column-end: 5;
 }
 
- #member5 {
+#member5 {
     grid-row-start: 2;
     grid-column-start: 5;
  
     grid-row-end: 3;
     grid-column-end: 7;
- }
+}
