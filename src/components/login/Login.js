@@ -26,7 +26,7 @@ export default function Login() {
     } 
 
     return (
-        <div className='page'>
+        <div className='login-page'>
             <div className='container'>
                 <img id='login-logo' src={logo} alt='Logo'/>
             </div>
