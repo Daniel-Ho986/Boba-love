@@ -16,10 +16,10 @@
     padding-top: 2rem;
 }
 
-#logo {
+#login-logo {
     width: 350px;
     height: 80px;
-
+    padding: 0 1px;
     animation: fadeIn 5s;
 }
 
@@ -133,7 +133,7 @@ label {
     padding-left: 5px;
 }
 
-.button {
+.login-button {
     background-color: #774936;
     color: #ffffff;
     border-radius: 15px;

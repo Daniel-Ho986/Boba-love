@@ -3,9 +3,8 @@ import { Link, useNavigate } from 'react-router-dom'
 import { UserAuth } from '../context/AuthContext'
 
 import './login.css'
-import logo from '../../images/Logo.png'
 import leftArrow from '../../icons/arrow-left.png'
-
+import logo from '../../icons/boba-love-logo.png'
 
 export default function Login() {
     const { signIn } = UserAuth()
@@ -23,14 +22,13 @@ export default function Login() {
             navigate('/')
         } catch (e) {
             setError(e.message)
-            console.log(e.message)
         }
     } 
 
     return (
         <div className='login-page'>
             <div className='container'>
-                <img id='logo' src={logo} alt='Logo'/>
+                <img id='login-logo' src={logo} alt='Logo'/>
             </div>
             <div className='container'>
                 <div className='login-card'>
@@ -63,7 +61,7 @@ export default function Login() {
                                     required />
                                 <Link className='forgot-password' to='/'>Forgot Password?</Link>
                             </section>
-                            <button className='button' id='login-submit' type='submit'>Log In</button>
+                            <button className='login-button' id='login-submit' type='submit'>Log In</button>
                             <div id='new-user'>
                                 New user? <Link className='signup' to='/signup'>Sign Up</Link>
                             </div>

@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { UserAuth } from '../context/AuthContext'
 
 import './signup.css'
-import logo from '../../images/Logo.png'
+import logo from '../../icons/boba-love-logo.png'
 import leftArrow from '../../icons/arrow-left.png'
 import google from '../../icons/google-logo.png'
 
@@ -26,14 +26,13 @@ export default function SignUp() {
             navigate('/')
         } catch (e) {
             setError(e.message)
-            console.log(e.message)
         }
     }
 
     return (
         <div className='signup-page'>
             <div className='container'>
-                <img id='logo' src={logo} alt='Logo'/>
+                <img id='signup-logo' src={logo} alt='Logo'/>
             </div>
             <div className='container'>
                 <div className='signup-card'>
@@ -87,7 +86,7 @@ export default function SignUp() {
                                     onChange={(e) => setPassword(e.target.value)}
                                     required />
                             </section>
-                            <button className='button' id='submit' type='submit'>Sign Up</button>
+                            <button className='signup-button' id='submit' type='submit'>Sign Up</button>
                             <div id='existing-user'>
                                 Already a user? <Link className='login' to='/login'>Login</Link>
                             </div>

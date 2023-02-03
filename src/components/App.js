@@ -12,9 +12,9 @@ export default function App() {
     <AuthContextProvider>
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<AboutUs/>} />
-          <Route path="/signup" element={<SignUp/>} />
-          <Route path="/login" element={<Login/>} />
+          <Route exact path='/' element={<AboutUs/>} />
+          <Route path='/signup' element={<SignUp/>} />
+          <Route path='/login' element={<Login/>} />
         </Routes>
       </BrowserRouter>
     </AuthContextProvider>
