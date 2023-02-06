@@ -1,22 +1,29 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
-import Navbar from './navigationBar/NavigationBar'
-import Member from './member/Member'
+import Navbar from '../navigationBar/NavigationBar'
+import Member from '../member/Member'
 
 import './aboutUs.css'
-import drink from '../images/slideshow-drinks.jpg'
-import phone from '../images/slideshow-phone.jpg'
-import friends from '../images/slideshow-friends.jpg'
+import image1 from '../../assets/images/slideshow1-1.jpg'
+// import image1 from '../../assets/images/slideshow1-2.jpg'
+
+// import image2 from '../../assets/images/slideshow2-1.jpg'
+import image2 from '../../assets/images/slideshow2-2.jpg'
+
+import image3 from '../../assets/images/slideshow3-1.jpg'
+// import image3 from '../../assets/images/slideshow-friends.jpg'
+
 
 // Team member images
-import Daniel from '../../src/assets/members/Daniel.png'
-import Simon from '../../src/assets/members/Simon.png'
-import Maxwell from '../../src/assets/members/Maxwell.png'
-import Jacklyn from '../../src/assets/members/Jacklyn.png'
-import HaoRen from '../../src/assets/members/HaoRen.png'
+import Daniel from '../../assets/members/Daniel.png'
+import Simon from '../../assets/members/Simon.png'
+import Maxwell from '../../assets/members/Maxwell.png'
+import Jacklyn from '../../assets/members/Jacklyn.png'
+import HaoRen from '../../assets/members/HaoRen.png'
 
 // Drink Icons
-import PassionFruit from '../../src/assets/Daniel\'s_Drink.png'
+import PassionFruit from '../../assets/icons/drinkIcons/PassionFruit.png'
+import MilkTea from '../../assets/icons//drinkIcons/MilkTea.png'
 
 export default function AboutUs() {
     return (
@@ -30,7 +37,7 @@ export default function AboutUs() {
                     <Carousel.Item>
                         <img
                             className='d-block carousel-image'
-                            src={drink}
+                            src={image1}
                             alt='First slide'
                         />
                         <Carousel.Caption className='caption'>
@@ -41,7 +48,7 @@ export default function AboutUs() {
                     <Carousel.Item>
                         <img
                             className='d-block carousel-image'
-                            src={phone}
+                            src={image2}
                             alt='Second slide'
                         />
                         <Carousel.Caption className='caption'>
@@ -52,7 +59,7 @@ export default function AboutUs() {
                     <Carousel.Item>
                         <img
                             className='d-block carousel-image'
-                            src={friends}
+                            src={image3}
                             alt='Third slide'
                         />
                         <Carousel.Caption className='caption'>
@@ -63,7 +70,7 @@ export default function AboutUs() {
                 </Carousel>
             </div>
             <div className='team-container'>
-                <h2>Meet Our Team: Sussy Bakas</h2>
+                <h2>Meet Our Team</h2>
                 <div className="team-grid">
                     <div className="team-card" id="member1">
                         <Member 
@@ -79,7 +86,7 @@ export default function AboutUs() {
                             name="Simon Hsia" 
                             image={Simon}
                             role="Back-end Developer"
-                            drinkIcon={PassionFruit}
+                            drinkIcon={MilkTea}
                             drink="Classic Milk Tea"
                         />
                     </div>
@@ -105,8 +112,8 @@ export default function AboutUs() {
                         <Member
                             name="Hao Ren Yuan" 
                             image={HaoRen}
-                            role="Graphics Designer & Back-end Developer"
-                            drinkIcon={PassionFruit}
+                            role="Graphics Designer"
+                            drinkIcon={MilkTea}
                             drink="Classic Milk Tea"
                         />
                     </div>

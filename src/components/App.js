@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { AuthContextProvider } from './context/AuthContext'
 
-import AboutUs from './AboutUs'
+import AboutUs from './aboutUs/AboutUs'
 import SignUp from './signup/SignUp'
 import Login from './login/Login'
 

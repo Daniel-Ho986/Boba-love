@@ -3,8 +3,8 @@ import { Link, useNavigate } from 'react-router-dom'
 import { UserAuth } from '../context/AuthContext'
 
 import './login.css'
-import leftArrow from '../../icons/arrow-left.png'
-import logo from '../../icons/boba-love-logo.png'
+import leftArrow from '../../assets/icons/arrow-left.png'
+import logo from '../../assets/icons/boba-love-logo.png'
 
 export default function Login() {
     const { signIn } = UserAuth()
@@ -28,7 +28,9 @@ export default function Login() {
     return (
         <div className='login-page'>
             <div className='container'>
-                <img id='login-logo' src={logo} alt='Logo'/>
+                <Link to='/'> 
+                    <img id='login-logo' src={logo} alt='Logo'/>
+                </Link>
             </div>
             <div className='container'>
                 <div className='login-card'>

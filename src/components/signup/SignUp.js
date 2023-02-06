@@ -3,9 +3,9 @@ import { Link, useNavigate } from 'react-router-dom'
 import { UserAuth } from '../context/AuthContext'
 
 import './signup.css'
-import logo from '../../icons/boba-love-logo.png'
-import leftArrow from '../../icons/arrow-left.png'
-import google from '../../icons/google-logo.png'
+import logo from '../../assets/icons/boba-love-logo.png'
+import leftArrow from '../../assets/icons/arrow-left.png'
+import google from '../../assets/icons/google-logo.png'
 
 
 export default function SignUp() {
@@ -32,7 +32,9 @@ export default function SignUp() {
     return (
         <div className='signup-page'>
             <div className='container'>
-                <img id='signup-logo' src={logo} alt='Logo'/>
+                <Link to='/'>
+                    <img id='signup-logo' src={logo} alt='Logo'/>
+                </Link>
             </div>
             <div className='container'>
                 <div className='signup-card'>
