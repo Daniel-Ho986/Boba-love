@@ -1,11 +1,12 @@
 .carousel-container {
-    background-color: #000000;
+    background-color: #fef6cc;
     padding: 0;
 }
 
 .carousel-image {
-    width: 100%;
+    width: 60%;
     height: 75vh;
+    margin: auto;
 }
 
 .caption {

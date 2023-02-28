@@ -112,7 +112,7 @@ export default function AboutUs() {
                         <Member
                             name="Hao Ren Yuan" 
                             image={HaoRen}
-                            role="Graphics Designer"
+                            role="Full-Stack Web Developer"
                             drinkIcon={MilkTea}
                             drink="Classic Milk Tea"
                         />
