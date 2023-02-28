@@ -1,0 +1,17 @@
+.votes{
+ background-color: #E4DCDC;
+ position: absolute;
+ align-items: center;
+ left: 108px;
+ right: 108px;
+ top: 70px;
+ width: 1000px;
+ height: 300px;
+}
+
+.chart {
+    height: 250px;
+    width: 100%;
+    padding-left: 400px;
+}
+
