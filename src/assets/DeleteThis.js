@@ -6,6 +6,7 @@ import Member from './Team/ourTeam'
 
 export default function AboutUs() {
   return (
+    //some type of comment
     <div className='About-page'>
       <div>
       <ButtonEXP />
