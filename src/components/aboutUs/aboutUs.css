@@ -1,0 +1,80 @@
+.carousel-container {
+    background-color: #fef6cc;
+    padding: 0;
+}
+
+.carousel-image {
+    width: 60%;
+    height: 75vh;
+    margin: auto;
+}
+
+.caption {
+    background: (255 255 255 / 0.5);
+    backdrop-filter: blur(5px);
+    padding: 1rem;
+}
+
+.team-container {
+    background-color: #fed8cc;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 8px;
+
+    height: 100%;
+    padding: 1rem 2rem;
+}
+
+.team-card {
+    display: flex;
+    justify-content: center;
+    margin: 10px 15px;
+}
+
+
+#member1 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+
+    grid-row-end: 2;
+    grid-column-end: 4;
+ }
+
+#member2 {
+    grid-row-start: 1;
+    grid-column-start: 4;
+
+    grid-row-end: 2;
+    grid-column-end: 6;
+}
+
+#member3 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+
+    grid-row-end: 3;
+    grid-column-end: 3;
+}
+
+#member4 {
+    grid-row-start: 2;
+    grid-column-start: 3;
+
+    grid-row-end: 3;
+    grid-column-end: 5;
+}
+
+#member5 {
+    grid-row-start: 2;
+    grid-column-start: 5;
+ 
+    grid-row-end: 3;
+    grid-column-end: 7;
+}

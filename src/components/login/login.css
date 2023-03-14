@@ -2,7 +2,7 @@
 
 .login-page {
     background-color: #FFF1E6;
-    background-image: url(/src/assets/BobaBackground.gif);
+    background-image: url(/src/assets/gifs/BobaBackground.gif);
     /* background-repeat: no-repeat; */
     background-size: contain; 
     background-position: center;
@@ -16,10 +16,10 @@
     padding-top: 2rem;
 }
 
-#logo {
+#login-logo {
     width: 350px;
     height: 80px;
-
+    padding: 0 1px;
     animation: fadeIn 5s;
 }
 
@@ -133,7 +133,7 @@ label {
     padding-left: 5px;
 }
 
-.button {
+.login-button {
     background-color: #774936;
     color: #ffffff;
     border-radius: 15px;
