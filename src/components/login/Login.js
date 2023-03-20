@@ -19,7 +19,7 @@ export default function Login() {
         setError('')
         try {
             await signIn(email, password)
-            navigate('/main')
+            navigate('/')
         } catch (e) {
             setError(e.message)
         }
