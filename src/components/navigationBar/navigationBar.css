@@ -16,7 +16,7 @@
     letter-spacing: 0.04em;
 }
 
-.nav-button:hover {
+.nav-button:hover, .popover-button:hover {
     transform: scale(1.05);
 }
 
@@ -27,12 +27,8 @@
     color: #000000;
 }
 
-.nav-login-link {
+.nav-login-link, .nav-login-link:hover {
     text-decoration: none;
-    color: #000000;
-}
-
-.nav-login-link:hover {
     color: #000000;
 }
 
@@ -43,13 +39,29 @@
     color: #fff;
 }
 
-.nav-register-link {
+.nav-register-link, .nav-register-link:hover {
     text-decoration: none;
     color: #ffffff;
 }
 
-.nav-register-link:hover {
-    color:#ffffff;
+.popover-button {
+    width: 105px;
+    height: 35px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: 0.04em;
 }
 
+.popover-profile, .popover-logout {
+    background: #fee2cc;
+    border: 2px solid #000;
+    border-radius: 6px;
+    color: #000;
+}
 
+.popover-logout:hover, .popover-profile:hover {
+    background: #Cd997E;
+    border: 2px solid #AD795C;
+    color: #fff;
+}
