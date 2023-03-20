@@ -1,14 +1,17 @@
 import React from "react";
-import './After-logged.css'
+
+import NavigationBar from "../navigationBar/NavigationBar";
 import Poll from "./Tryout";
 
-export default function AfterLoggedIn(){
-        return (
-            <div>
-                <div> 
-                   <Poll />
-                </div>
-            </div>
-        
-        );
-      }
+import './After-logged.css'
+
+const AfterLoggedIn = () => {
+
+    return (
+        <div>
+            <NavigationBar/>
+            <Poll />
+        </div>
+    );
+}
+export default AfterLoggedIn
