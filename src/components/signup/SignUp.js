@@ -23,7 +23,7 @@ export default function SignUp() {
         setError('')
         try {
             await createUser(email, password)
-            navigate('/main')
+            navigate('/')
         } catch (e) {
             setError(e.message)
         }

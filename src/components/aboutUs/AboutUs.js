@@ -40,10 +40,10 @@ export default function AboutUs() {
                             src={image1}
                             alt='First slide'
                         />
-                        {/* <Carousel.Caption className='caption'>
+                        <Carousel.Caption className='caption'>
                             <h3>First slide label</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </Carousel.Caption> */}
+                        </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
@@ -51,10 +51,10 @@ export default function AboutUs() {
                             src={image2}
                             alt='Second slide'
                         />
-                        {/* <Carousel.Caption className='caption'>
+                        <Carousel.Caption className='caption'>
                             <h3>Second slide label</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </Carousel.Caption> */}
+                        </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
@@ -62,10 +62,10 @@ export default function AboutUs() {
                             src={image3}
                             alt='Third slide'
                         />
-                        {/* <Carousel.Caption className='caption'>
+                        <Carousel.Caption className='caption'>
                             <h3>Third slide label</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </Carousel.Caption> */}
+                        </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
             </div>
@@ -112,7 +112,7 @@ export default function AboutUs() {
                         <Member
                             name="Hao Ren Yuan" 
                             image={HaoRen}
-                            role="Graphics"
+                            role="Full-Stack Web Developer"
                             drinkIcon={MilkTea}
                             drink="Classic Milk Tea"
                         />
