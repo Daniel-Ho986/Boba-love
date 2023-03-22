@@ -8,7 +8,7 @@ import SearchBar from '../searchBar/SearchBar';
 
 import './navigationBar.css'
 import logo from '../../assets/icons/boba-love-logo.png'
-import avatar from '../../assets/images/slideshow-friends.jpg' 
+import avatar from '../../assets/icons/defaultProfile/defaultProfiles5.png' 
 
 export default function NavigationBar() {
     const [error, setError] = useState('')

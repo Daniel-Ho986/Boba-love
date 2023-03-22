@@ -4,15 +4,11 @@ import Navbar from '../navigationBar/NavigationBar'
 import Member from '../member/Member'
 
 import './aboutUs.css'
-import image1 from '../../assets/images/slideshow1-1.jpg'
-// import image1 from '../../assets/images/slideshow1-2.jpg'
-
-// import image2 from '../../assets/images/slideshow2-1.jpg'
-import image2 from '../../assets/images/slideshow2-2.jpg'
-
-import image3 from '../../assets/images/slideshow3-1.jpg'
-// import image3 from '../../assets/images/slideshow-friends.jpg'
-
+import slideshow1 from '../../assets/images/slideshow/slideshow1.jpg'
+import slideshow2 from '../../assets/images/slideshow/slideshow2.jpg'
+import slideshow3 from '../../assets/images/slideshow/slideshow3.jpg'
+import slideshow4 from '../../assets/images/slideshow/slideshow4.png'
+import slideshow5 from '../../assets/images/slideshow/slideshow5.png'
 
 // Team member images
 import Daniel from '../../assets/members/Daniel.png'
@@ -37,7 +33,7 @@ export default function AboutUs() {
                     <Carousel.Item>
                         <img
                             className='d-block carousel-image'
-                            src={image1}
+                            src={slideshow1}
                             alt='First slide'
                         />
                         {/* <Carousel.Caption className='caption'>
@@ -48,7 +44,7 @@ export default function AboutUs() {
                     <Carousel.Item>
                         <img
                             className='d-block carousel-image'
-                            src={image2}
+                            src={slideshow2}
                             alt='Second slide'
                         />
                         {/* <Carousel.Caption className='caption'>
@@ -59,7 +55,29 @@ export default function AboutUs() {
                     <Carousel.Item>
                         <img
                             className='d-block carousel-image'
-                            src={image3}
+                            src={slideshow3}
+                            alt='Third slide'
+                        />
+                        {/* <Carousel.Caption className='caption'>
+                            <h3>Third slide label</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </Carousel.Caption> */}
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className='d-block carousel-image'
+                            src={slideshow4}
+                            alt='Third slide'
+                        />
+                        {/* <Carousel.Caption className='caption'>
+                            <h3>Third slide label</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </Carousel.Caption> */}
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className='d-block min-width'
+                            src={slideshow5}
                             alt='Third slide'
                         />
                         {/* <Carousel.Caption className='caption'>
