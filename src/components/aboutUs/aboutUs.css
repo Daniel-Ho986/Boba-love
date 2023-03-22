@@ -4,7 +4,13 @@
 }
 
 .carousel-image {
-    width: 60%;
+    width: 80%;
+    height: 75vh;
+    margin: auto;
+}
+
+.min-width {
+    width: 35%;
     height: 75vh;
     margin: auto;
 }
@@ -77,4 +83,10 @@
  
     grid-row-end: 3;
     grid-column-end: 7;
+}
+
+@media screen and (max-width: 1024px) {
+    .carousel-image, .min-width {
+        height: 50vh;
+    }
 }
