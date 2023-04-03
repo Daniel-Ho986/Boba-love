@@ -7,6 +7,7 @@ import SignUp from './signup/SignUp'
 import Login from './login/Login'
 import Main from './After-Logged/After-logged'
 import ProtectedRoute from './ProtectedRoute'
+import writeDailySpecial from './cloudfirestore'
 
 export default function App() {
     return (
@@ -17,6 +18,7 @@ export default function App() {
                     <Route path='/signup' element={<SignUp/>} />
                     <Route path='/login' element={<Login/>} />
                     <Route path='/main' element={<ProtectedRoute><Main/></ProtectedRoute>} />
+                    <Route path='/' element={<writeDailySpecial/>} />
                 </Routes>
             </BrowserRouter>
         </AuthContextProvider>
