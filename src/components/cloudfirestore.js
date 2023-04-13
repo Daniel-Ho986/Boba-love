@@ -74,6 +74,9 @@ async function writeDailySpecial() {
         name: "Beijing", state: null, country: "China",
         capital: true, population: 21500000,
         regions: ["jingjinji", "hebei"] });
+    await setDoc(doc(citiesRef, "Lychee"), {
+        Storeswithflavor: ["Gongcha","YaYa Tea", "Kung Fu Tea"],
+        Drinkswithflavor: ["Boyfriend", "Better Life", "Blue Blood", ""] });
     
     const docRef = doc(db, "cities", "SF");
     const docRef2 = doc(db, "FlavorsTest", "09IJTxMCMlctu5nw15fV");
@@ -81,6 +84,7 @@ async function writeDailySpecial() {
     const docSnap2 = await getDoc(docRef2);
     
     
+
     if (docSnap2.exists()) {
       console.log("Document data:", docSnap2.data());
     } else {
